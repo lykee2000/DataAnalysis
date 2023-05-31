@@ -1,0 +1,1654 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Players' datatype='string' name='[매개 변수 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;이정후&quot;'>
+        <calculation class='tableau' formula='&quot;이정후&quot;' />
+        <members>
+          <member value='&quot;강경학&quot;' />
+          <member value='&quot;강로한&quot;' />
+          <member value='&quot;강민국&quot;' />
+          <member value='&quot;강민호&quot;' />
+          <member value='&quot;강백호&quot;' />
+          <member value='&quot;강승호&quot;' />
+          <member value='&quot;강진성&quot;' />
+          <member value='&quot;강한울&quot;' />
+          <member value='&quot;고종욱&quot;' />
+          <member value='&quot;구자욱&quot;' />
+          <member value='&quot;국해성&quot;' />
+          <member value='&quot;권정웅&quot;' />
+          <member value='&quot;권희동&quot;' />
+          <member value='&quot;김강민&quot;' />
+          <member value='&quot;김경언&quot;' />
+          <member value='&quot;김경호&quot;' />
+          <member value='&quot;김규민&quot;' />
+          <member value='&quot;김규성&quot;' />
+          <member value='&quot;김도환&quot;' />
+          <member value='&quot;김동엽&quot;' />
+          <member value='&quot;김동한&quot;' />
+          <member value='&quot;김문호&quot;' />
+          <member value='&quot;김민성&quot;' />
+          <member value='&quot;김민수&quot;' />
+          <member value='&quot;김민식&quot;' />
+          <member value='&quot;김민하&quot;' />
+          <member value='&quot;김민혁&quot;' />
+          <member value='&quot;김상수&quot;' />
+          <member value='&quot;김상현&quot;' />
+          <member value='&quot;김상호&quot;' />
+          <member value='&quot;김선빈&quot;' />
+          <member value='&quot;김성욱&quot;' />
+          <member value='&quot;김성현&quot;' />
+          <member value='&quot;김성훈&quot;' />
+          <member value='&quot;김연훈&quot;' />
+          <member value='&quot;김용의&quot;' />
+          <member value='&quot;김웅빈&quot;' />
+          <member value='&quot;김원석&quot;' />
+          <member value='&quot;김인태&quot;' />
+          <member value='&quot;김재유&quot;' />
+          <member value='&quot;김재율&quot;' />
+          <member value='&quot;김재현&quot;' />
+          <member value='&quot;김재호&quot;' />
+          <member value='&quot;김재환&quot;' />
+          <member value='&quot;김정혁&quot;' />
+          <member value='&quot;김종민&quot;' />
+          <member value='&quot;김종호&quot;' />
+          <member value='&quot;김주원&quot;' />
+          <member value='&quot;김주찬&quot;' />
+          <member value='&quot;김주형&quot;' />
+          <member value='&quot;김준완&quot;' />
+          <member value='&quot;김준태&quot;' />
+          <member value='&quot;김지수&quot;' />
+          <member value='&quot;김지찬&quot;' />
+          <member value='&quot;김찬형&quot;' />
+          <member value='&quot;김태군&quot;' />
+          <member value='&quot;김태균&quot;' />
+          <member value='&quot;김태연&quot;' />
+          <member value='&quot;김태완&quot;' />
+          <member value='&quot;김태진&quot;' />
+          <member value='&quot;김하성&quot;' />
+          <member value='&quot;김헌곤&quot;' />
+          <member value='&quot;김현수&quot;' />
+          <member value='&quot;김형준&quot;' />
+          <member value='&quot;김혜성&quot;' />
+          <member value='&quot;김호령&quot;' />
+          <member value='&quot;김호은&quot;' />
+          <member value='&quot;김호재&quot;' />
+          <member value='&quot;김회성&quot;' />
+          <member value='&quot;나균안&quot;' />
+          <member value='&quot;나성범&quot;' />
+          <member value='&quot;나주환&quot;' />
+          <member value='&quot;나지완&quot;' />
+          <member value='&quot;노수광&quot;' />
+          <member value='&quot;노시환&quot;' />
+          <member value='&quot;노진혁&quot;' />
+          <member value='&quot;노태형&quot;' />
+          <member value='&quot;류승현&quot;' />
+          <member value='&quot;류지혁&quot;' />
+          <member value='&quot;모창민&quot;' />
+          <member value='&quot;문규현&quot;' />
+          <member value='&quot;문보경&quot;' />
+          <member value='&quot;문상철&quot;' />
+          <member value='&quot;문선재&quot;' />
+          <member value='&quot;민병헌&quot;' />
+          <member value='&quot;박건우&quot;' />
+          <member value='&quot;박경수&quot;' />
+          <member value='&quot;박계범&quot;' />
+          <member value='&quot;박기혁&quot;' />
+          <member value='&quot;박동원&quot;' />
+          <member value='&quot;박민우&quot;' />
+          <member value='&quot;박병호&quot;' />
+          <member value='&quot;박석민&quot;' />
+          <member value='&quot;박성한&quot;' />
+          <member value='&quot;박세혁&quot;' />
+          <member value='&quot;박승규&quot;' />
+          <member value='&quot;박승욱&quot;' />
+          <member value='&quot;박용택&quot;' />
+          <member value='&quot;박재상&quot;' />
+          <member value='&quot;박정권&quot;' />
+          <member value='&quot;박정음&quot;' />
+          <member value='&quot;박종윤&quot;' />
+          <member value='&quot;박준영&quot;' />
+          <member value='&quot;박준태&quot;' />
+          <member value='&quot;박찬도&quot;' />
+          <member value='&quot;박찬호&quot;' />
+          <member value='&quot;박한이&quot;' />
+          <member value='&quot;박해민&quot;' />
+          <member value='&quot;박헌도&quot;' />
+          <member value='&quot;배영섭&quot;' />
+          <member value='&quot;배정대&quot;' />
+          <member value='&quot;백상원&quot;' />
+          <member value='&quot;백용환&quot;' />
+          <member value='&quot;백창수&quot;' />
+          <member value='&quot;서건창&quot;' />
+          <member value='&quot;서동욱&quot;' />
+          <member value='&quot;서상우&quot;' />
+          <member value='&quot;손시헌&quot;' />
+          <member value='&quot;손아섭&quot;' />
+          <member value='&quot;손주인&quot;' />
+          <member value='&quot;송광민&quot;' />
+          <member value='&quot;송성문&quot;' />
+          <member value='&quot;송우현&quot;' />
+          <member value='&quot;신본기&quot;' />
+          <member value='&quot;신성현&quot;' />
+          <member value='&quot;신용수&quot;' />
+          <member value='&quot;신종길&quot;' />
+          <member value='&quot;심우준&quot;' />
+          <member value='&quot;안상현&quot;' />
+          <member value='&quot;안익훈&quot;' />
+          <member value='&quot;안재석&quot;' />
+          <member value='&quot;안중열&quot;' />
+          <member value='&quot;안치홍&quot;' />
+          <member value='&quot;양석환&quot;' />
+          <member value='&quot;양성우&quot;' />
+          <member value='&quot;양의지&quot;' />
+          <member value='&quot;오선진&quot;' />
+          <member value='&quot;오승택&quot;' />
+          <member value='&quot;오윤석&quot;' />
+          <member value='&quot;오재원&quot;' />
+          <member value='&quot;오재일&quot;' />
+          <member value='&quot;오정복&quot;' />
+          <member value='&quot;오준혁&quot;' />
+          <member value='&quot;오지환&quot;' />
+          <member value='&quot;오태곤&quot;' />
+          <member value='&quot;용덕한&quot;' />
+          <member value='&quot;유강남&quot;' />
+          <member value='&quot;유민상&quot;' />
+          <member value='&quot;유한준&quot;' />
+          <member value='&quot;윤석민&quot;' />
+          <member value='&quot;윤요섭&quot;' />
+          <member value='&quot;이대수&quot;' />
+          <member value='&quot;이대형&quot;' />
+          <member value='&quot;이대호&quot;' />
+          <member value='&quot;이명기&quot;' />
+          <member value='&quot;이범호&quot;' />
+          <member value='&quot;이병규&quot;' />
+          <member value='&quot;이상호&quot;' />
+          <member value='&quot;이성곤&quot;' />
+          <member value='&quot;이성규&quot;' />
+          <member value='&quot;이성열&quot;' />
+          <member value='&quot;이성우&quot;' />
+          <member value='&quot;이승엽&quot;' />
+          <member value='&quot;이영빈&quot;' />
+          <member value='&quot;이용규&quot;' />
+          <member value='&quot;이우민&quot;' />
+          <member value='&quot;이우성&quot;' />
+          <member value='&quot;이원석&quot;' />
+          <member value='&quot;이원재&quot;' />
+          <member value='&quot;이유찬&quot;' />
+          <member value='&quot;이재원&quot;' />
+          <member value='&quot;이정후&quot;' />
+          <member value='&quot;이정훈&quot;' />
+          <member value='&quot;이종욱&quot;' />
+          <member value='&quot;이지영&quot;' />
+          <member value='&quot;이진영&quot;' />
+          <member value='&quot;이창진&quot;' />
+          <member value='&quot;이천웅&quot;' />
+          <member value='&quot;이택근&quot;' />
+          <member value='&quot;이학주&quot;' />
+          <member value='&quot;이해창&quot;' />
+          <member value='&quot;이현석&quot;' />
+          <member value='&quot;이형종&quot;' />
+          <member value='&quot;이호준&quot;' />
+          <member value='&quot;이홍구&quot;' />
+          <member value='&quot;이흥련&quot;' />
+          <member value='&quot;임병욱&quot;' />
+          <member value='&quot;임종찬&quot;' />
+          <member value='&quot;임훈&quot;' />
+          <member value='&quot;장민석&quot;' />
+          <member value='&quot;장성우&quot;' />
+          <member value='&quot;장승현&quot;' />
+          <member value='&quot;장영석&quot;' />
+          <member value='&quot;장진혁&quot;' />
+          <member value='&quot;전민수&quot;' />
+          <member value='&quot;전병우&quot;' />
+          <member value='&quot;전준우&quot;' />
+          <member value='&quot;정근우&quot;' />
+          <member value='&quot;정범모&quot;' />
+          <member value='&quot;정보근&quot;' />
+          <member value='&quot;정상호&quot;' />
+          <member value='&quot;정성훈&quot;' />
+          <member value='&quot;정수빈&quot;' />
+          <member value='&quot;정은원&quot;' />
+          <member value='&quot;정의윤&quot;' />
+          <member value='&quot;정주현&quot;' />
+          <member value='&quot;정진기&quot;' />
+          <member value='&quot;정진호&quot;' />
+          <member value='&quot;정현&quot;' />
+          <member value='&quot;정훈&quot;' />
+          <member value='&quot;조동찬&quot;' />
+          <member value='&quot;조동화&quot;' />
+          <member value='&quot;조수행&quot;' />
+          <member value='&quot;조영훈&quot;' />
+          <member value='&quot;조용호&quot;' />
+          <member value='&quot;조인성&quot;' />
+          <member value='&quot;주효상&quot;' />
+          <member value='&quot;지석훈&quot;' />
+          <member value='&quot;지성준&quot;' />
+          <member value='&quot;지시완&quot;' />
+          <member value='&quot;차일목&quot;' />
+          <member value='&quot;채은성&quot;' />
+          <member value='&quot;채태인&quot;' />
+          <member value='&quot;최승준&quot;' />
+          <member value='&quot;최영진&quot;' />
+          <member value='&quot;최용제&quot;' />
+          <member value='&quot;최원준&quot;' />
+          <member value='&quot;최인호&quot;' />
+          <member value='&quot;최재원&quot;' />
+          <member value='&quot;최재훈&quot;' />
+          <member value='&quot;최정&quot;' />
+          <member value='&quot;최정민&quot;' />
+          <member value='&quot;최정원&quot;' />
+          <member value='&quot;최주환&quot;' />
+          <member value='&quot;최준석&quot;' />
+          <member value='&quot;최준우&quot;' />
+          <member value='&quot;최지훈&quot;' />
+          <member value='&quot;최진행&quot;' />
+          <member value='&quot;최항&quot;' />
+          <member value='&quot;최형우&quot;' />
+          <member value='&quot;추신수&quot;' />
+          <member value='&quot;추재현&quot;' />
+          <member value='&quot;하주석&quot;' />
+          <member value='&quot;하준호&quot;' />
+          <member value='&quot;한동민&quot;' />
+          <member value='&quot;한동희&quot;' />
+          <member value='&quot;한승택&quot;' />
+          <member value='&quot;한유섬&quot;' />
+          <member value='&quot;허경민&quot;' />
+          <member value='&quot;허도환&quot;' />
+          <member value='&quot;허일&quot;' />
+          <member value='&quot;허정협&quot;' />
+          <member value='&quot;홍창기&quot;' />
+          <member value='&quot;황대인&quot;' />
+          <member value='&quot;황윤호&quot;' />
+          <member value='&quot;황재균&quot;' />
+          <member value='&quot;황진수&quot;' />
+        </members>
+      </column>
+      <column caption='Selected Year' datatype='integer' name='[매개 변수 2]' param-domain-type='list' role='measure' type='quantitative' value='2021'>
+        <calculation class='tableau' formula='2021' />
+        <members>
+          <member value='2021' />
+          <member value='2020' />
+          <member value='2019' />
+          <member value='2018' />
+          <member value='2017' />
+          <member value='2016' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='STATIZ 타자 WAR 순위(KBO 타자 데이터)' inline='true' name='federated.0qpf29x13xltoj18x4mff026sysz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='KBO 타자 데이터' name='excel-direct.12g50i81h2wfpw17jsl0q0023hpn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/yoongyo/TABLEAU/KBO 타자 데이터.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='real' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[Ba (타율)]' />
+            <value name='[Babip]' />
+            <value name='[Obp (출루율)]' />
+            <value name='[Slg (장타율)]' />
+            <value name='[W Oba]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[STATIZ 타자 WAR 순위].[BA (타율)]' />
+              <field name='[STATIZ 타자 WAR 순위].[BABIP]' />
+              <field name='[STATIZ 타자 WAR 순위].[OBP (출루율)]' />
+              <field name='[STATIZ 타자 WAR 순위].[SLG (장타율)]' />
+              <field name='[STATIZ 타자 WAR 순위].[wOBA]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.12g50i81h2wfpw17jsl0q0023hpn' name='STATIZ 타자 WAR 순위' table='[&apos;STATIZ 타자 WAR 순위$&apos;]' type='table'>
+            <columns gridOrigin='A1:AJ776:no:A1:AJ776:0' header='yes' outcome='2'>
+              <column datatype='integer' name='시즌' ordinal='0' />
+              <column datatype='integer' name='INDEX' ordinal='1' />
+              <column datatype='string' name='이름' ordinal='2' />
+              <column datatype='string' name='팀' ordinal='3' />
+              <column datatype='string' name='입단연도' ordinal='4' />
+              <column datatype='string' name='FA 계약여부' ordinal='5' />
+              <column datatype='real' name='WAR*' ordinal='6' />
+              <column datatype='integer' name='연봉 (단위: 만원)' ordinal='7' />
+              <column datatype='integer' name='출전 경기' ordinal='8' />
+              <column datatype='integer' name='타석' ordinal='9' />
+              <column datatype='integer' name='타수' ordinal='10' />
+              <column datatype='integer' name='득점' ordinal='11' />
+              <column datatype='integer' name='안타' ordinal='12' />
+              <column datatype='integer' name='2루타' ordinal='13' />
+              <column datatype='integer' name='3루타' ordinal='14' />
+              <column datatype='integer' name='홈런' ordinal='15' />
+              <column datatype='integer' name='루타' ordinal='16' />
+              <column datatype='integer' name='타점' ordinal='17' />
+              <column datatype='integer' name='도루' ordinal='18' />
+              <column datatype='integer' name='도실' ordinal='19' />
+              <column datatype='integer' name='볼넷' ordinal='20' />
+              <column datatype='integer' name='사구' ordinal='21' />
+              <column datatype='integer' name='고4' ordinal='22' />
+              <column datatype='integer' name='삼진' ordinal='23' />
+              <column datatype='integer' name='병살' ordinal='24' />
+              <column datatype='integer' name='희타' ordinal='25' />
+              <column datatype='integer' name='희비' ordinal='26' />
+              <column datatype='real' name='OBP (출루율)' ordinal='27' />
+              <column datatype='real' name='SLG (장타율)' ordinal='28' />
+              <column datatype='real' name='BA (타율)' ordinal='29' />
+              <column datatype='real' name='wOBA' ordinal='30' />
+              <column datatype='real' name='BABIP' ordinal='31' />
+              <column datatype='real' name='OPS' ordinal='32' />
+              <column datatype='real' name='wRC+' ordinal='33' />
+              <column datatype='real' name='WPA' ordinal='34' />
+              <column datatype='integer' name='다각형 Value' ordinal='35' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='피벗' type='pivot'>
+          <columns>
+            <column datatype='string' name='피벗 필드명' />
+            <column datatype='real' name='피벗 필드 값' />
+          </columns>
+          <tag name='피벗 필드명'>
+            <value name='[Ba (타율)]' />
+            <value name='[Babip]' />
+            <value name='[Obp (출루율)]' />
+            <value name='[Slg (장타율)]' />
+            <value name='[W Oba]' />
+          </tag>
+          <groups>
+            <group name='피벗 필드 값'>
+              <field name='[STATIZ 타자 WAR 순위].[BA (타율)]' />
+              <field name='[STATIZ 타자 WAR 순위].[BABIP]' />
+              <field name='[STATIZ 타자 WAR 순위].[OBP (출루율)]' />
+              <field name='[STATIZ 타자 WAR 순위].[SLG (장타율)]' />
+              <field name='[STATIZ 타자 WAR 순위].[wOBA]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.12g50i81h2wfpw17jsl0q0023hpn' name='STATIZ 타자 WAR 순위' table='[&apos;STATIZ 타자 WAR 순위$&apos;]' type='table'>
+            <columns gridOrigin='A1:AJ776:no:A1:AJ776:0' header='yes' outcome='2'>
+              <column datatype='integer' name='시즌' ordinal='0' />
+              <column datatype='integer' name='INDEX' ordinal='1' />
+              <column datatype='string' name='이름' ordinal='2' />
+              <column datatype='string' name='팀' ordinal='3' />
+              <column datatype='string' name='입단연도' ordinal='4' />
+              <column datatype='string' name='FA 계약여부' ordinal='5' />
+              <column datatype='real' name='WAR*' ordinal='6' />
+              <column datatype='integer' name='연봉 (단위: 만원)' ordinal='7' />
+              <column datatype='integer' name='출전 경기' ordinal='8' />
+              <column datatype='integer' name='타석' ordinal='9' />
+              <column datatype='integer' name='타수' ordinal='10' />
+              <column datatype='integer' name='득점' ordinal='11' />
+              <column datatype='integer' name='안타' ordinal='12' />
+              <column datatype='integer' name='2루타' ordinal='13' />
+              <column datatype='integer' name='3루타' ordinal='14' />
+              <column datatype='integer' name='홈런' ordinal='15' />
+              <column datatype='integer' name='루타' ordinal='16' />
+              <column datatype='integer' name='타점' ordinal='17' />
+              <column datatype='integer' name='도루' ordinal='18' />
+              <column datatype='integer' name='도실' ordinal='19' />
+              <column datatype='integer' name='볼넷' ordinal='20' />
+              <column datatype='integer' name='사구' ordinal='21' />
+              <column datatype='integer' name='고4' ordinal='22' />
+              <column datatype='integer' name='삼진' ordinal='23' />
+              <column datatype='integer' name='병살' ordinal='24' />
+              <column datatype='integer' name='희타' ordinal='25' />
+              <column datatype='integer' name='희비' ordinal='26' />
+              <column datatype='real' name='OBP (출루율)' ordinal='27' />
+              <column datatype='real' name='SLG (장타율)' ordinal='28' />
+              <column datatype='real' name='BA (타율)' ordinal='29' />
+              <column datatype='real' name='wOBA' ordinal='30' />
+              <column datatype='real' name='BABIP' ordinal='31' />
+              <column datatype='real' name='OPS' ordinal='32' />
+              <column datatype='real' name='wRC+' ordinal='33' />
+              <column datatype='real' name='WPA' ordinal='34' />
+              <column datatype='integer' name='다각형 Value' ordinal='35' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AJ776:no:A1:AJ776:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시즌</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[시즌]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>시즌</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDEX</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INDEX]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>INDEX</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>이름</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[이름]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>이름</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>팀</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[팀]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>팀</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>입단연도</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[입단연도]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>입단연도</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FA 계약여부</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FA 계약여부]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>FA 계약여부</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WAR*</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WAR*]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>WAR*</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>연봉 (단위: 만원)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[연봉 (단위: 만원)]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>연봉 (단위: 만원)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>출전 경기</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[출전 경기]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>출전 경기</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>타석</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[타석]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>타석</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>타수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[타수]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>타수</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>득점</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[득점]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>득점</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>안타</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[안타]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>안타</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2루타</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2루타]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>2루타</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3루타</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[3루타]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>3루타</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>홈런</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[홈런]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>홈런</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>루타</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[루타]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>루타</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>타점</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[타점]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>타점</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>도루</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[도루]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>도루</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>도실</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[도실]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>도실</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>볼넷</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[볼넷]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>볼넷</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사구</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[사구]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>사구</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>고4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[고4]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>고4</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>삼진</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[삼진]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>삼진</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>병살</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[병살]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>병살</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>희타</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[희타]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>희타</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>희비</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[희비]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>희비</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OPS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OPS]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>OPS</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wRC+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[wRC+]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>wRC+</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WPA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WPA]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>WPA</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>다각형 Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[다각형 Value]</local-name>
+            <parent-name>[STATIZ 타자 WAR 순위]</parent-name>
+            <remote-alias>다각형 Value</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드명</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[피벗 필드명]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드명</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>피벗 필드 값</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[피벗 필드 값]</local-name>
+            <parent-name>[피벗]</parent-name>
+            <remote-alias>피벗 필드 값</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='1. Angle' datatype='real' name='[Calculation_746471655562182656]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='--RUNNING_SUM(&#10;    2*PI()/MIN({COUNTD([피벗 필드명])})&#10;)+PI()/2'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='2. Distance from Center' datatype='real' name='[Calculation_746471655562596353]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([피벗 필드 값])' />
+      </column>
+      <column caption='3. X' datatype='real' name='[Calculation_746471655562678274]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_746471655562596353]*COS([Calculation_746471655562182656])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='4. Y' datatype='real' name='[Calculation_746471655562764291]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_746471655562596353]*SIN([Calculation_746471655562182656])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Player Filter' datatype='boolean' name='[Calculation_746471655563288580]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[이름] = [Parameters].[매개 변수 1]' />
+      </column>
+      <column caption='Year Filter(선택연도 및 전년도)' datatype='boolean' name='[Calculation_746471655564574726]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[시즌] = [Parameters].[매개 변수 2] or [시즌] = [Parameters].[매개 변수 2]-1' />
+      </column>
+      <column caption='Fa 계약여부' datatype='string' name='[FA 계약여부]' role='dimension' type='nominal' />
+      <column caption='Index' datatype='integer' name='[INDEX]' role='measure' type='quantitative' />
+      <column caption='War*' datatype='real' name='[WAR*]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='STATIZ 타자 WAR 순위' datatype='table' name='[__tableau_internal_object_id__].[STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[시즌]' role='dimension' type='ordinal' />
+      <column caption='Value' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+      <column caption='Attribute' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+      <column-instance column='[시즌]' derivation='None' name='[none:시즌:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:시즌:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2017</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2018</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Players' datatype='string' name='[매개 변수 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;이정후&quot;'>
+          <calculation class='tableau' formula='&quot;이정후&quot;' />
+        </column>
+        <column caption='Selected Year' datatype='integer' name='[매개 변수 2]' param-domain-type='list' role='measure' type='quantitative' value='2021'>
+          <calculation class='tableau' formula='2021' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='STATIZ 타자 WAR 순위' id='STATIZ 타자 WAR 순위_6159ECFD00F043929A297D87BE394DA3'>
+            <properties context=''>
+              <relation name='피벗' type='pivot'>
+                <columns>
+                  <column datatype='string' name='피벗 필드명' />
+                  <column datatype='real' name='피벗 필드 값' />
+                </columns>
+                <tag name='피벗 필드명'>
+                  <value name='[Ba (타율)]' />
+                  <value name='[Babip]' />
+                  <value name='[Obp (출루율)]' />
+                  <value name='[Slg (장타율)]' />
+                  <value name='[W Oba]' />
+                </tag>
+                <groups>
+                  <group name='피벗 필드 값'>
+                    <field name='[STATIZ 타자 WAR 순위].[BA (타율)]' />
+                    <field name='[STATIZ 타자 WAR 순위].[BABIP]' />
+                    <field name='[STATIZ 타자 WAR 순위].[OBP (출루율)]' />
+                    <field name='[STATIZ 타자 WAR 순위].[SLG (장타율)]' />
+                    <field name='[STATIZ 타자 WAR 순위].[wOBA]' />
+                  </group>
+                </groups>
+                <relation connection='excel-direct.12g50i81h2wfpw17jsl0q0023hpn' name='STATIZ 타자 WAR 순위' table='[&apos;STATIZ 타자 WAR 순위$&apos;]' type='table'>
+                  <columns gridOrigin='A1:AJ776:no:A1:AJ776:0' header='yes' outcome='2'>
+                    <column datatype='integer' name='시즌' ordinal='0' />
+                    <column datatype='integer' name='INDEX' ordinal='1' />
+                    <column datatype='string' name='이름' ordinal='2' />
+                    <column datatype='string' name='팀' ordinal='3' />
+                    <column datatype='string' name='입단연도' ordinal='4' />
+                    <column datatype='string' name='FA 계약여부' ordinal='5' />
+                    <column datatype='real' name='WAR*' ordinal='6' />
+                    <column datatype='integer' name='연봉 (단위: 만원)' ordinal='7' />
+                    <column datatype='integer' name='출전 경기' ordinal='8' />
+                    <column datatype='integer' name='타석' ordinal='9' />
+                    <column datatype='integer' name='타수' ordinal='10' />
+                    <column datatype='integer' name='득점' ordinal='11' />
+                    <column datatype='integer' name='안타' ordinal='12' />
+                    <column datatype='integer' name='2루타' ordinal='13' />
+                    <column datatype='integer' name='3루타' ordinal='14' />
+                    <column datatype='integer' name='홈런' ordinal='15' />
+                    <column datatype='integer' name='루타' ordinal='16' />
+                    <column datatype='integer' name='타점' ordinal='17' />
+                    <column datatype='integer' name='도루' ordinal='18' />
+                    <column datatype='integer' name='도실' ordinal='19' />
+                    <column datatype='integer' name='볼넷' ordinal='20' />
+                    <column datatype='integer' name='사구' ordinal='21' />
+                    <column datatype='integer' name='고4' ordinal='22' />
+                    <column datatype='integer' name='삼진' ordinal='23' />
+                    <column datatype='integer' name='병살' ordinal='24' />
+                    <column datatype='integer' name='희타' ordinal='25' />
+                    <column datatype='integer' name='희비' ordinal='26' />
+                    <column datatype='real' name='OBP (출루율)' ordinal='27' />
+                    <column datatype='real' name='SLG (장타율)' ordinal='28' />
+                    <column datatype='real' name='BA (타율)' ordinal='29' />
+                    <column datatype='real' name='wOBA' ordinal='30' />
+                    <column datatype='real' name='BABIP' ordinal='31' />
+                    <column datatype='real' name='OPS' ordinal='32' />
+                    <column datatype='real' name='wRC+' ordinal='33' />
+                    <column datatype='real' name='WPA' ordinal='34' />
+                    <column datatype='integer' name='다각형 Value' ordinal='35' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='시트 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='STATIZ 타자 WAR 순위(KBO 타자 데이터)' name='federated.0qpf29x13xltoj18x4mff026sysz' />
+            <datasource caption='매개 변수' name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Players' datatype='string' name='[매개 변수 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;이정후&quot;'>
+              <calculation class='tableau' formula='&quot;이정후&quot;' />
+            </column>
+            <column caption='Selected Year' datatype='integer' name='[매개 변수 2]' param-domain-type='list' role='measure' type='quantitative' value='2021'>
+              <calculation class='tableau' formula='2021' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0qpf29x13xltoj18x4mff026sysz'>
+            <column caption='1. Angle' datatype='real' name='[Calculation_746471655562182656]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='--RUNNING_SUM(&#10;    2*PI()/MIN({COUNTD([피벗 필드명])})&#10;)+PI()/2'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='2. Distance from Center' datatype='real' name='[Calculation_746471655562596353]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([피벗 필드 값])' />
+            </column>
+            <column caption='3. X' datatype='real' name='[Calculation_746471655562678274]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_746471655562596353]*COS([Calculation_746471655562182656])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='4. Y' datatype='real' name='[Calculation_746471655562764291]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_746471655562596353]*SIN([Calculation_746471655562182656])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Player Filter' datatype='boolean' name='[Calculation_746471655563288580]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[이름] = [Parameters].[매개 변수 1]' />
+            </column>
+            <column caption='Year Filter(선택연도 및 전년도)' datatype='boolean' name='[Calculation_746471655564574726]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[시즌] = [Parameters].[매개 변수 2] or [시즌] = [Parameters].[매개 변수 2]-1' />
+            </column>
+            <column-instance column='[피벗 필드 값]' derivation='Avg' name='[avg:피벗 필드 값:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_746471655563288580]' derivation='None' name='[none:Calculation_746471655563288580:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_746471655564574726]' derivation='None' name='[none:Calculation_746471655564574726:nk]' pivot='key' type='nominal' />
+            <column-instance column='[시즌]' derivation='None' name='[none:시즌:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[피벗 필드명]' derivation='None' name='[none:피벗 필드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_746471655562182656]' derivation='User' name='[usr:Calculation_746471655562182656:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0qpf29x13xltoj18x4mff026sysz].[피벗 필드명]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_746471655562678274]' derivation='User' name='[usr:Calculation_746471655562678274:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0qpf29x13xltoj18x4mff026sysz].[피벗 필드명]' ordering-type='Field' />
+              <table-calc field='[federated.0qpf29x13xltoj18x4mff026sysz].[Calculation_746471655562182656]' ordering-field='[federated.0qpf29x13xltoj18x4mff026sysz].[피벗 필드명]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_746471655562764291]' derivation='User' name='[usr:Calculation_746471655562764291:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0qpf29x13xltoj18x4mff026sysz].[피벗 필드명]' ordering-type='Field' />
+              <table-calc field='[federated.0qpf29x13xltoj18x4mff026sysz].[Calculation_746471655562182656]' ordering-field='[federated.0qpf29x13xltoj18x4mff026sysz].[피벗 필드명]' ordering-type='Field' />
+            </column-instance>
+            <column aggregation='Sum' datatype='integer' name='[시즌]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[이름]' role='dimension' type='nominal' />
+            <column caption='Value' datatype='real' name='[피벗 필드 값]' role='measure' type='quantitative' />
+            <column caption='Attribute' datatype='string' name='[피벗 필드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:Calculation_746471655563288580:nk]'>
+            <groupfilter function='member' level='[none:Calculation_746471655563288580:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:Calculation_746471655564574726:nk]'>
+            <groupfilter function='member' level='[none:Calculation_746471655564574726:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0qpf29x13xltoj18x4mff026sysz].[none:Calculation_746471655563288580:nk]</column>
+            <column>[federated.0qpf29x13xltoj18x4mff026sysz].[none:Calculation_746471655564574726:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2]' scope='cols' value='false' />
+            <format attr='title' class='0' field='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562764291:qk:2]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0qpf29x13xltoj18x4mff026sysz].[avg:피벗 필드 값:qk]' value='n#,##0.000;-#,##0.000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+            <encodings>
+              <lod column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:피벗 필드명:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8cd17d' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+            <encodings>
+              <color column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:시즌:ok]' />
+              <lod column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:피벗 필드명:nk]' />
+              <path column='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562182656:qk:1]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8cd17d' />
+                <format attr='mark-transparency' value='129' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <text column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:피벗 필드명:nk]' />
+              <text column='[federated.0qpf29x13xltoj18x4mff026sysz].[avg:피벗 필드 값:qk]' />
+              <lod column='[federated.0qpf29x13xltoj18x4mff026sysz].[none:피벗 필드명:nk]' />
+              <lod column='[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562182656:qk:1]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562764291:qk:2]</rows>
+        <cols>([federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2] + [federated.0qpf29x13xltoj18x4mff026sysz].[usr:Calculation_746471655562678274:qk:2])</cols>
+      </table>
+      <simple-id uuid='{3D2EF3F3-1735-4DC6-B153-68EE288922F3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='시트 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[매개 변수 1]' type='parameter' />
+            <card mode='compact' param='[Parameters].[매개 변수 2]' type='parameter' />
+            <card pane-specification-id='1' param='[federated.0qpf29x13xltoj18x4mff026sysz].[none:시즌:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qpf29x13xltoj18x4mff026sysz].[none:Calculation_746471655563288580:nk]</field>
+            <field>[federated.0qpf29x13xltoj18x4mff026sysz].[none:Calculation_746471655564574726:nk]</field>
+            <field>[federated.0qpf29x13xltoj18x4mff026sysz].[none:시즌:ok]</field>
+            <field>[federated.0qpf29x13xltoj18x4mff026sysz].[none:피벗 필드명:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EBE4C96D-CC8E-4126-965E-0FD805419B9A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='시트 1' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
